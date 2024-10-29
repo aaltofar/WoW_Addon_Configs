@@ -1,36 +1,11 @@
-BigWigs
-BigWigs_Core
-BigWigs_KhazAlgar
-BigWigs_NerubarPalace
-BigWigs_Options
-BigWigs_Plugins
-Details
-Details_Compare2
-Details_DataStorage
-Details_EncounterDetails
-Details_RaidCheck
-Details_Streamer
-Details_TinyThreat
-Details_Vanguard
-ElvUI
-ElvUI_Libraries
-ElvUI_Options
-ElvUI_SLE
-ElvUI_WindTools
-LittleWigs
-LittleWigs_BattleForAzeroth
-LittleWigs_BurningCrusade
-LittleWigs_Cataclysm
-LittleWigs_Classic
-LittleWigs_Dragonflight
-LittleWigs_Legion
-LittleWigs_MistsOfPandaria
-LittleWigs_Shadowlands
-LittleWigs_WarlordsOfDraenor
-LittleWigs_WrathOfTheLichKing
-Plater
-WeakAuras
-WeakAurasArchive
-WeakAurasModelPaths
-WeakAurasOptions
-WeakAurasTemplates
+# Aaltofar addon repo
+
+Addon list:
+-   BigWigs
+-   Details
+-   ElvUI
+-   ElvUI_SLE
+-   ElvUI_WindTools
+-   LittleWigs
+-   Plater
+-   WeakAuras
