@@ -1,0 +1,232 @@
+
+BigWigs3DB = {
+["namespaces"] = {
+["BigWigs_Plugins_Victory"] = {
+},
+["BigWigs_Plugins_BossBlock"] = {
+["profiles"] = {
+["Eltreum"] = {
+["blockTalkingHeads"] = {
+true,
+nil,
+nil,
+true,
+},
+},
+},
+},
+["BigWigs_Plugins_Sounds"] = {
+},
+["BigWigs_Plugins_AutoReply"] = {
+["profiles"] = {
+["Eltreum"] = {
+["exitCombat"] = 4,
+["mode"] = 4,
+["disabled"] = false,
+},
+},
+},
+["BigWigs_Plugins_Countdown"] = {
+["profiles"] = {
+["Eltreum"] = {
+["fontName"] = "Kimberley",
+["fontSize"] = 100,
+},
+},
+},
+["BigWigs_Plugins_AltPower"] = {
+["profiles"] = {
+["Eltreum"] = {
+["outline"] = "OUTLINE",
+["barTextColor"] = {
+nil,
+1,
+1,
+},
+["position"] = {
+"TOP",
+"TOP",
+-355,
+-23,
+},
+["barColor"] = {
+1,
+0.4862745098039216,
+0.0392156862745098,
+1,
+},
+["fontName"] = "Kimberley",
+},
+},
+},
+["BigWigs_Plugins_Colors"] = {
+["profiles"] = {
+["Default"] = {
+["barColor"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.5098039507865906,
+0.7019608020782471,
+1,
+},
+},
+},
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.7098039388656616,
+0.03529411926865578,
+0.03529411926865578,
+},
+},
+},
+},
+["Eltreum"] = {
+["barColor"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.5098039507865906,
+0.7019608020782471,
+1,
+},
+},
+},
+["barEmphasized"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.7098039388656616,
+0.03529411926865578,
+0.03529411926865578,
+},
+},
+},
+},
+},
+},
+["BigWigs_Plugins_Raid Icons"] = {
+},
+["BigWigs_Plugins_InfoBox"] = {
+},
+["BigWigs_Plugins_Bars"] = {
+["profiles"] = {
+["Eltreum"] = {
+["outline"] = "OUTLINE",
+["normalWidth"] = 384,
+["visibleBarLimit"] = 15,
+["emphasizeTime"] = 10,
+["growup"] = true,
+["barStyle"] = "Eltruism",
+["expPosition"] = {
+nil,
+"TOP",
+350,
+-350,
+},
+["expHeight"] = 15,
+["spacing"] = 15,
+["emphasizeGrowup"] = true,
+["visibleBarLimitEmph"] = 6,
+["expWidth"] = 180,
+["texture"] = "ElvUI Norm1",
+["fontName"] = "Kimberley",
+["normalHeight"] = 15,
+["normalPosition"] = {
+"RIGHT",
+"RIGHT",
+-4,
+-281,
+},
+},
+},
+},
+["BigWigs_Plugins_Statistics"] = {
+["profiles"] = {
+["Eltreum"] = {
+["showBar"] = true,
+},
+},
+},
+["BigWigs_Plugins_Wipe"] = {
+["profiles"] = {
+["Eltreum"] = {
+["wipeSound"] = "AmanThul - Wipe",
+},
+},
+},
+["BigWigs_Plugins_Proximity"] = {
+["profiles"] = {
+["Eltreum"] = {
+["posx"] = 928,
+["fontSize"] = 16,
+["posy"] = 121,
+["height"] = 93,
+["objects"] = {
+["background"] = false,
+},
+["fontName"] = "Kimberley",
+["width"] = 135,
+},
+},
+},
+["BigWigs_Plugins_Messages"] = {
+["profiles"] = {
+["Eltreum"] = {
+["outline"] = "OUTLINE",
+["emphOutline"] = "OUTLINE",
+["emphFontName"] = "Kimberley",
+["fontName"] = "Kimberley",
+["emphPosition"] = {
+nil,
+"TOP",
+nil,
+-160,
+"UIParent",
+},
+},
+},
+},
+["BigWigs_Plugins_Nameplates"] = {
+["profiles"] = {
+["Eltreum"] = {
+["iconWidth"] = 25,
+["iconFontName"] = "Kimberley",
+["textFontName"] = "Kimberley",
+["iconOffsetY"] = 65,
+["iconSpacing"] = 2,
+["iconGlowFrequency"] = 0.3000000000000003,
+["iconOffsetX"] = -10,
+["textOutline"] = "OUTLINE",
+["textSpacing"] = 1,
+["textOffsetY"] = 85,
+["iconZoom"] = 0.02,
+["iconHeight"] = 18,
+["iconGlowPixelThickness"] = 2,
+["iconFontSize"] = 12,
+["iconGlowColor"] = {
+0,
+1,
+0.5960784554481506,
+},
+["iconGrowDirectionStart"] = "TOPRIGHT",
+},
+},
+},
+["BigWigs_Plugins_Pull"] = {
+},
+["LibDualSpec-1.0"] = {
+},
+},
+["profileKeys"] = {
+["Papatoshi - Azjol-Nerub"] = "Eltreum",
+},
+["profiles"] = {
+["Eltreum"] = {
+},
+},
+}
+BigWigsIconDB = {
+["hide"] = true,
+}
+BigWigsStatsDB = {
+}
+BigWigsTempNameplates = nil

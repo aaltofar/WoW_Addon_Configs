@@ -1,0 +1,36 @@
+
+ElvCharacterDB = {
+["ConvertKeybindings"] = true,
+["ChatEditHistory"] = {
+"/details",
+"/reload",
+"/plater",
+"/elvui",
+"/details options",
+"/details clear",
+},
+["ChatHistoryLog"] = {
+{
+"how many tokens can i  earn per week max?",
+"Draiton-Quel'Thalas",
+"",
+"1. General - Tanaris",
+"Draiton-Quel'Thalas",
+"",
+1,
+1,
+"General - Tanaris",
+0,
+82,
+"Player-1396-08601A77",
+0,
+false,
+false,
+false,
+true,
+[52] = "|cffa330c9Draiton-Quel'Thalas|r",
+[51] = 1730046204,
+[50] = "CHAT_MSG_CHANNEL",
+},
+},
+}

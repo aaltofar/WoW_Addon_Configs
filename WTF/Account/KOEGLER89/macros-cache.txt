@@ -1,0 +1,28 @@
+VER 3 0000000000000016 "/print GetMouseF" "INV_MISC_QUESTIONMARK"
+/framestack
+END
+VER 3 000000000000004A "asd" "135886"
+/script SILVER_PER_GOLD=100
+END
+VER 3 0000000000000043 "asdniuo" "INV_MISC_QUESTIONMARK"
+/run local N,t,d={"DAL","ULD","AQ","DEEP","GNOMER","VAL","MAZE","MOUNT"},{47826,47837,47841,47850,47852,47863,47881,47885} for s,k in pairs(N)do d=IsQuestFlaggedCompleted(t[s]) print(k,"=",d and "\124cFF00FF00" or "\124cFFFF0000NOT","DONE")end
+END
+VER 3 0000000000000049 "commendation" "INV_MISC_QUESTIONMARK"
+/run C_GossipInfo.SelectAvailableQuest(2) CompleteQuest() GetQuestReward(1)
+END
+VER 3 0000000000000018 "cooking" "INV_MISC_QUESTIONMARK"
+/script SelectGossipAvailableQuest(1);CompleteQuest();GetQuestReward()
+END
+VER 3 000000000000004C "DeleteCursorItem" "132397"
+/run StaticPopup1Button1:SetScript("OnUpdate", function(self) self:Enable() end)
+END
+VER 3 000000000000004D "disenchant" "134400"
+#showtooltip Disenchant
+/run local f=DeM or CreateFrame("Button","DeM",nil,"SecureActionButtonTemplate") f:SetAttribute("type","click") f:SetAttribute("clickbutton",GetMouseFoci()[1])
+/dismount
+/cast Disenchant
+/click DeM
+END
+VER 3 000000000000004E "hide" "134400"
+/run local a,b={1,2,3,4,5,6},unpack(ElvUI);for c,d in pairs(a)do local e=b.db.actionbar["bar"..d].visibility;b.db.actionbar["bar"..d].visibility=e=="hide"and"[petbattle]hide;show"or"hide"b.ActionBars:PositionAndSizeBar("bar"..d)end
+END
